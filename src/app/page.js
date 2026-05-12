@@ -63,7 +63,7 @@ const projects = [
     link: "",
     github: "https://github.com/yuzzaf/threaden",
     image: "/threaden.png",
-    role: "Full-Stack Developer",
+    role: "Mobile Developer",
     metrics: ["Real-time Feed", "Redis Caching", "GraphQL API"],
   },
   {
@@ -78,6 +78,18 @@ const projects = [
     image: "/logo_nexahome.png",
     role: "Mobile Developer",
     metrics: ["AI Insights", "IoT Integration", "Real-time Monitoring"],
+  },
+  {
+    title: "Figurin",
+    date: "April 2026",
+    description: "E-commerce platform for figures built with Next.js and TypeScript. Features infinite scroll, debounced search, and wishlist management.",
+    longDescription: "Developed a client-server e-commerce web application using Next.js, TypeScript, and MongoDB. Implemented Server-Side Rendering (SSR) & Client-Side Rendering (CSR), secure authentication, and advanced product browsing features like infinite scroll pagination and debounced search.",
+    tags: ["Next.js", "TypeScript", "MongoDB"],
+    link: "https://figurin.vercel.app/",
+    github: "https://github.com/yuzzaf/Figurin",
+    image: "/figurin.png",
+    role: "Full-Stack Developer",
+    metrics: ["Infinite Scroll", "SSR & CSR", "Authentication"],
   },
   {
     title: "Zapshop",
@@ -752,6 +764,9 @@ export default function Home() {
               <div>
                 <h3 className="font-bold text-[var(--ink)] mb-4">Projects</h3>
                 <div className="space-y-3 text-xs text-[var(--muted)]">
+                  <a href="https://figurin.vercel.app/" target="_blank" rel="noopener noreferrer" className="nav-link-enhanced flex items-center gap-2 hover:text-[var(--accent)] transition">
+                    <span>→</span> Figurin
+                  </a>
                   <a href="https://zapshop.erwindw99.com/" target="_blank" rel="noopener noreferrer" className="nav-link-enhanced flex items-center gap-2 hover:text-[var(--accent)] transition">
                     <span>→</span> Zapshop
                   </a>
