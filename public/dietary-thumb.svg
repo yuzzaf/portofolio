@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8fafb"/>
+  
+  <!-- Decorative blobs -->
+  <circle cx="100" cy="150" r="250" fill="url(#lightBlueGrad)" opacity="0.08"/>
+  <circle cx="1100" cy="600" r="200" fill="url(#blueGrad)" opacity="0.06"/>
+  
+  <!-- Header bar -->
+  <rect width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Logo and nav -->
+  <g transform="translate(60, 28)">
+    <!-- Bolt icon -->
+    <rect x="0" y="0" width="24" height="24" rx="6" fill="url(#blueGrad)"/>
+    <path d="M 12 4 L 16 12 L 10 12 L 14 20 L 6 10 L 12 10 Z" fill="white"/>
+  </g>
+  
+  <text x="100" y="48" font-size="20" font-weight="700" fill="#1f2937" font-family="sans-serif">Dietary</text>
+  
+  <!-- Nav items -->
+  <text x="300" y="48" font-size="14" fill="#6b7280" font-family="sans-serif">Detect</text>
+  <text x="420" y="48" font-size="14" fill="#6b7280" font-family="sans-serif">Search</text>
+  <text x="520" y="48" font-size="14" fill="#2563eb" font-weight="600" font-family="sans-serif">Home</text>
+  
+  <!-- Login button -->
+  <rect x="1100" y="24" width="80" height="40" rx="8" fill="url(#blueGrad)"/>
+  <text x="1140" y="48" font-size="13" font-weight="600" fill="white" text-anchor="middle" font-family="sans-serif">Login</text>
+  
+  <!-- Main content -->
+  <g transform="translate(0, 100)">
+    <!-- Headline -->
+    <text x="600" y="80" font-size="56" font-weight="900" fill="#111827" text-anchor="middle" font-family="serif">Master Your Nutrition with</text>
+    
+    <!-- Highlighted text -->
+    <text x="600" y="150" font-size="56" font-weight="900" fill="url(#blueGrad)" text-anchor="middle" font-family="serif">AI Intelligence</text>
+    
+    <!-- Description -->
+    <text x="600" y="210" font-size="16" fill="#4b5563" text-anchor="middle" font-family="sans-serif">The smartest way to track your daily calories. Just snap a photo or search our</text>
+    <text x="600" y="235" font-size="16" fill="#4b5563" text-anchor="middle" font-family="sans-serif">database. Get personalized insights driven by advanced AI.</text>
+    
+    <!-- CTA buttons -->
+    <rect x="350" y="280" width="200" height="50" rx="12" fill="url(#blueGrad)" filter="url(#shadow)"/>
+    <text x="450" y="315" font-size="15" font-weight="600" fill="white" text-anchor="middle" font-family="sans-serif">Get Started for Free</text>
+    
+    <rect x="650" y="280" width="200" height="50" rx="12" fill="white" stroke="#d1d5db" stroke-width="2"/>
+    <text x="750" y="315" font-size="15" font-weight="600" fill="#111827" text-anchor="middle" font-family="sans-serif">Try Food Detection</text>
+    
+    <!-- Feature cards -->
+    <g transform="translate(150, 400)">
+      <!-- Card 1: AI Scan -->
+      <rect x="0" y="0" width="280" height="220" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1" filter="url(#shadow)"/>
+      <circle cx="140" cy="40" r="28" fill="#dbeafe"/>
+      <circle cx="140" cy="40" r="20" fill="#dbeafe"/>
+      <!-- Camera icon -->
+      <rect x="128" y="28" width="24" height="20" rx="3" fill="none" stroke="#2563eb" stroke-width="2"/>
+      <circle cx="140" cy="38" r="3" fill="#2563eb"/>
+      
+      <text x="140" y="100" font-size="18" font-weight="700" fill="#111827" text-anchor="middle" font-family="sans-serif">AI Scan</text>
+      <text x="140" y="140" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">Just upload a photo of your</text>
+      <text x="140" y="160" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">meal and let our AI calculate</text>
+      <text x="140" y="180" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">your calories instantly.</text>
+    </g>
+    
+    <g transform="translate(520, 400)">
+      <!-- Card 2: Smart Search -->
+      <rect x="0" y="0" width="280" height="220" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1" filter="url(#shadow)"/>
+      <circle cx="140" cy="40" r="28" fill="#d1fae5"/>
+      <!-- Search icon -->
+      <circle cx="140" cy="38" r="7" fill="none" stroke="#10b981" stroke-width="2"/>
+      <line x1="145" y1="43" x2="152" y2="50" stroke="#10b981" stroke-width="2"/>
+      
+      <text x="140" y="100" font-size="18" font-weight="700" fill="#111827" text-anchor="middle" font-family="sans-serif">Smart Search</text>
+      <text x="140" y="140" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">Access nutritional data for over</text>
+      <text x="140" y="160" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">100,000+ commercial and</text>
+      <text x="140" y="180" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">natural food items.</text>
+    </g>
+    
+    <g transform="translate(890, 400)">
+      <!-- Card 3: AI Insights -->
+      <rect x="0" y="0" width="280" height="220" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1" filter="url(#shadow)"/>
+      <circle cx="140" cy="40" r="28" fill="#f3e8ff"/>
+      <!-- Sparkle icon -->
+      <line x1="140" y1="25" x2="140" y2="50" stroke="#a855f7" stroke-width="2"/>
+      <line x1="125" y1="37" x2="155" y2="37" stroke="#a855f7" stroke-width="2"/>
+      <circle cx="140" cy="37" r="2" fill="#a855f7"/>
+      
+      <text x="140" y="100" font-size="18" font-weight="700" fill="#111827" text-anchor="middle" font-family="sans-serif">AI Insights</text>
+      <text x="140" y="140" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">Receive personalized nutritional</text>
+      <text x="140" y="160" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">feedback to help you hit your</text>
+      <text x="140" y="180" font-size="13" fill="#6b7280" text-anchor="middle" font-family="sans-serif">daily health goals.</text>
+    </g>
+  </g>
+</svg>
