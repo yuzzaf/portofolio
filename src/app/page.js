@@ -62,7 +62,7 @@ const projects = [
     tags: ["React Native", "GraphQL", "Redis", "MongoDB"],
     link: "",
     github: "https://github.com/yuzzaf/threaden",
-    image: "",
+    image: "/threaden.png",
     role: "Full-Stack Developer",
     metrics: ["Real-time Feed", "Redis Caching", "GraphQL API"],
   },
@@ -75,7 +75,7 @@ const projects = [
     tags: ["React Native", "Expo", "MongoDB"],
     link: "",
     github: "https://github.com/NexaHome/nexahome-app",
-    image: "",
+    image: "/logo_nexahome.png",
     role: "Mobile Developer",
     metrics: ["AI Insights", "IoT Integration", "Real-time Monitoring"],
   },
@@ -486,7 +486,7 @@ export default function Home() {
                          src={project.image}
                          alt={project.title}
                          fill
-                         sizes="100vw"
+                         sizes="(max-width: 768px) 100vw, 50vw"
                          className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition duration-500"
                        />
                      )}
