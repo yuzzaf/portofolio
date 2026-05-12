@@ -31,7 +31,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Portfolio Developer",
+  title: "Muhammad Yuzzaf | Portfolio",
   description: "Full-stack developer portfolio focused on web and mobile.",
 };
 
